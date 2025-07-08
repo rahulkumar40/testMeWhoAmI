@@ -1,0 +1,35 @@
+.data-container {
+  display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.data-item {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  text-align: center;
+}
+.data-item:hover {
+  background-color: #242424;
+  cursor: pointer;
+}
+.data-item h2 {
+  font-size: 1.5em;        }
+
+.data-item p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.data-item a {
+  color: #646cff;
+  text-decoration: none;
+}
+.data-item a:hover {
+  text-decoration: underline;
+}
